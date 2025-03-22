@@ -8,3 +8,9 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Vim temporary files
+*.swp
+*.swo
+*.un~
+*~
