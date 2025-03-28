@@ -1,5 +1,7 @@
 # Weather MCP Server
 
+[![smithery badge](https://smithery.ai/badge/@asifdotpy/mcp-weather-server)](https://smithery.ai/server/@asifdotpy/mcp-weather-server)
+
 ## Overview
 This repository contains an MCP (Model Context Protocol) server for accessing US weather data from the National Weather Service (NWS) API. The server provides tools to fetch weather alerts and forecasts for locations across the United States.
 
@@ -10,6 +12,16 @@ This repository contains an MCP (Model Context Protocol) server for accessing US
 - Error handling and timeout management
 
 ## Installation
+
+### Installing via Smithery
+
+To install mcp-weather-server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@asifdotpy/mcp-weather-server):
+
+```bash
+npx -y @smithery/cli install @asifdotpy/mcp-weather-server --client claude
+```
+
+### Manual Installation
 ```bash
 # Clone the repository
 git clone <repository-url>
